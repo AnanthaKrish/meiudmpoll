@@ -22,11 +22,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git.heroku.com/mediumpoll.git"
+    "url": "https://github.com/AnanthaKrish/meiudmpoll.git"
   },
   "keywords": [
     "node",
-    "heroku",
     "express"
   ],
   "license": "MIT"
