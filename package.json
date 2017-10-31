@@ -3,7 +3,8 @@
   "version": "0.2.6",
   "description": "My sample website",
   "engines": {
-    "node": "6.11.1"
+    "node": "*",
+    "npm": "*"
   },
   "main": "index.js",
   "scripts": {
@@ -14,7 +15,15 @@
     "express": "4.15.2",
     "xml2js":"0.4.19",
     "https":"1.0.0",
-    "request":"*"
+    "request":"*",
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "mocha": "^2.4.5",
+    "mongodb": "^2.1.16",
+    "morgan": "^1.7.0",
+    "object-assign":"4.1.0"
   },
   "devDependencies": {
     "request": "^2.81.0",
@@ -28,5 +37,8 @@
     "node",
     "express"
   ],
-  "license": "MIT"
+  "license": "MIT",
+
+  "author": "Anantha Krishnan K G <sspeiche@gmail.com>"
 }
+
